@@ -1,4 +1,4 @@
-# Project 3: From Homeland to Homeland
+# Project 3: De patria a patria
 ### Overview  
 * Intro  
 * Figma  
