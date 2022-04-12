@@ -1,19 +1,19 @@
 # Project 3: De patria a patria
-### Overview  
-* Intro  
+### Descripción general    
+* Introducción  
 * Figma  
-* Images  
+* Imágenes  
   
-**Intro**    
+**Introducción**    
   
-This is a project that showcases the hometowns of some of Practicum's employees. We've made it so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.  
+Este es un proyecto que muestra las ciudades natales de algunos de los empleados de Practicum. Lo hemos diseñado de tal modo que todos los elementos se muestren correctamente en los tamaños de pantalla más habituales. Recomendamos invertir más tiempo en completar este proyecto, ya que es más difícil que los anteriores.     
   
 **Figma**  
   
-* [Link to the project on Figma](https://www.figma.com/file/ZW8wxTYTZH2czTTfDMVHWq/WEB%2C-Sprint-3-%3A-De-patria-a-patria-%7C-desktop-%2B-mobile?node-id=0%3A1)  
+* [Enlace al proyecto en Figma](https://www.figma.com/file/ZW8wxTYTZH2czTTfDMVHWq/WEB%2C-Sprint-3-%3A-De-patria-a-patria-%7C-desktop-%2B-mobile?node-id=0%3A1)  
   
-**Images**  
+**Imágenes**  
   
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
+A la hora de trabajar, debes optar por exportar las imágenes directamente desde Figma; te recomendamos hacerlo para practicar más. No olvides optimizarlas [aquí](https://tinypng.com/), para que tu proyecto cargue más rápido.   
   
-Good luck and have fun!  
+¡Mucha suerte y que te lo pases bien! 
