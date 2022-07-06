@@ -1,0 +1,8 @@
+.web {
+  /*width: 46.34%;*/
+  border: dashed 1px red;
+  padding-bottom: 107px;
+  grid-area: web;
+  padding: 0;
+  margin: 107 426px 8px 0;
+}

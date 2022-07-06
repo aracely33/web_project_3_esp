@@ -1,0 +1,13 @@
+.web__artist-heading {
+  border: solid 1px red;
+  /*width: 12.71%;*/
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  margin: 0;
+}

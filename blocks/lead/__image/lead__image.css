@@ -1,0 +1,6 @@
+.lead__image {
+  width: 100%;
+  background-image: ("lead-image-opacity.png");
+  background: #000000;
+  mix-blend-mode: luminosity;
+}

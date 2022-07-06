@@ -1,0 +1,10 @@
+.lead {
+  border: solid 1px red;
+  display: flex;
+  width: 76.875%;
+  margin-right: auto;
+  margin-left: auto;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 0;
+}

@@ -1,0 +1,7 @@
+.places {
+  display: flex;
+  flex-direction: column;
+  border: solid 1px yellow;
+  width: 76.87%;
+  margin: 0 auto 0 auto;
+}

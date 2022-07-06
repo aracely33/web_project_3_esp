@@ -1,0 +1,12 @@
+.place__paragraph {
+  border: dashed 1px white;
+  /*width: 49.18%;*/
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
