@@ -1,14 +1,8 @@
 .place {
   width: 100%;
-  display: grid;
-  grid-template-columns: 1fr 1.052fr;
-  grid-template-rows: repeat(3, auto);
-  grid-gap: 48px 40px;
-
-  grid-template-areas:
-    "title  web"
-    "image  paragraph"
-    "frame  paragraph";
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
 }
 
 .place:nth-child(1) {

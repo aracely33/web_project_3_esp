@@ -1,5 +1,5 @@
-.web__artist-name {
-  border: solid 1px white;
+.place__artist-name {
+  border: dashed 1px yellow;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -8,4 +8,5 @@
   color: #ffffff;
   padding: 0;
   margin: 0;
+  grid-area: name;
 }

@@ -1,6 +1,6 @@
-.web__artist-heading {
+.place__artist-heading {
   border: solid 1px red;
-  /*width: 12.71%;*/
+  width: 12.71%;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -10,4 +10,5 @@
   text-transform: uppercase;
   color: #aaaaaa;
   margin: 0;
+  grid-area: artist;
 }

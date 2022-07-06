@@ -1,5 +1,5 @@
-.frame__text {
-  /*width: 32.012%;*/
+.frame {
+  width: 36.07%;
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
@@ -7,5 +7,5 @@
   line-height: 22px;
   color: #ffffff;
   text-decoration: none;
-  grid-area: frame;
+  background-image: ("frame__square.jpg");
 }
