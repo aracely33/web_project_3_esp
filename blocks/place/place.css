@@ -1,10 +1,9 @@
 .place {
   width: 100%;
   display: grid;
-  grid-template-columns: auto auto;
-  grid-template-rows: auto auto auto auto auto;
+  grid-template-columns: repeat(2, fr);
+  grid-template-rows: repeat(7, fr);
   grid-gap: 48px 40px;
-
   text-align: left;
 }
 

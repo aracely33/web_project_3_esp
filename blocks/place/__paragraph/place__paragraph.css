@@ -9,5 +9,6 @@
   color: #ffffff;
   margin: 0;
   padding: 0;
+  display: flexbox;
   grid-column: 2/3;
 }
