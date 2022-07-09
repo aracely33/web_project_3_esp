@@ -1,5 +1,7 @@
 .place__image {
   border: solid 1px pink;
-  max-width: 46.74%;
-  grid-area: image;
+  max-width: 100%;
+  background-size: contain;
+  grid-column: 1/2;
+  grid-row: 2/4;
 }

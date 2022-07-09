@@ -1,0 +1,7 @@
+.frame {
+  width: 75%;
+  background: #0278fe;
+  border-radius: 4px;
+  grid-column: 1/2;
+  grid-row: 4 / 5;
+}

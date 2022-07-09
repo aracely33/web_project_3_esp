@@ -1,7 +1,30 @@
 .places {
+  width: 77.1%;
   display: flex;
   flex-direction: column;
-  border: solid 1px yellow;
-  width: 76.87%;
-  margin: 0 auto 0 auto;
+  gap: 48px;
+}
+
+.places:nth-child(1) {
+  border: solid 1px blue;
+  margin: 0 0 80px 0;
+}
+
+.places:nth-child(2) {
+  border: solid 1px red;
+  margin: 0 0 35px 0;
+}
+
+.places:nth-child(3) {
+  border: solid 1px white;
+  margin: 0 0 80 0;
+}
+
+.places:nth-child(4) {
+  border: solid 1px green;
+  margin: 0 0 51px 0;
+}
+
+.places:nth-child(5) {
+  border: solid 1px pink;
 }

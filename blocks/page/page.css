@@ -9,4 +9,6 @@
   display: flex;
   flex-direction: column;
   row-gap: 92px; /*Esto de aquí iría en la media queries?*/
+  justify-content: center;
+  align-items: center;
 }
