@@ -9,7 +9,17 @@
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: #aaaaaa;
+  text-decoration: none;
   margin: 0;
   grid-column: 2/3;
   grid-row: 1/2;
+}
+
+@media screen and (max-width: 321px) {
+  .place__artist-heading {
+    width: 90%;
+    margin: 0 0 8px 0;
+    order: 2;
+    /*grid-area: place__artist-heading;*/
+  }
 }

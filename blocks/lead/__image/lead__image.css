@@ -4,3 +4,9 @@
   background: #000000;
   mix-blend-mode: luminosity;
 }
+
+@media screen and (max-width: 321px) {
+  .lead__image {
+    width: 111.11%;
+  }
+}

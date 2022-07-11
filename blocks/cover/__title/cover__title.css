@@ -1,23 +1,20 @@
-.place__title {
-  border: solid 1px white;
-  margin: 0;
+.cover__title {
+  border: solid 1px blue;
+  width: 55.4%;
   font-family: "Inter";
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
-  color: #ffffff;
-  grid-column: 1/2;
-  grid-row: 1 /2;
+  text-align: center;
+  color: #fffdfd;
+  z-index: 1;
 }
 
 @media screen and (max-width: 321px) {
-  .place__title {
+  .cover__title {
     width: 90%;
-    margin: 0 0 30px 0;
     font-size: 32px;
     line-height: 1.09;
-    order: 1;
-    /*grid-area: place__title;*/
   }
 }

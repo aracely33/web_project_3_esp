@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: column;
   gap: 48px;
+  margin: auto;
 }
 
 .places:nth-child(1) {
@@ -27,4 +28,11 @@
 
 .places:nth-child(5) {
   border: solid 1px pink;
+}
+
+@media screen and (max-width: 321px) {
+  .places {
+    width: 100%;
+    margin: 0;
+  }
 }

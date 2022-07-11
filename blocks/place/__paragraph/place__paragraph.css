@@ -1,6 +1,5 @@
 .place__paragraph {
   border: dashed 1px white;
-  /*width: 49.18%;*/
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -10,4 +9,15 @@
   margin: 0;
   padding: 0;
   grid-column: 2/3;
+}
+
+@media screen and (max-width: 321px) {
+  .place__paragraph {
+    width: 90%;
+    font-size: 16px;
+    line-height: 163%;
+    /*grid-area: place__paragraph;*/
+    margin: 0 0 7px 0;
+    order: 5;
+  }
 }
