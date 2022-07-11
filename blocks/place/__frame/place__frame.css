@@ -1,0 +1,25 @@
+.place__frame {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  text-decoration: none;
+  width: 75%;
+  background: #0278fe;
+  border-radius: 4px;
+  grid-column: 1/2;
+  grid-row: 4 / 5;
+}
+
+@media screen and (max-width: 321px) {
+  .place__frame {
+    width: 90%;
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.21;
+    order: 7;
+    /*grid-area: place__frame;*/
+  }
+}

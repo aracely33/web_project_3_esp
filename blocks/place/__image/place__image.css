@@ -2,6 +2,21 @@
   /*height: 460px;*/
   max-width: 100%;
   border: solid 1px pink;
+<<<<<<< HEAD
   grid-column: 1/2;
   grid-row: 3/6;
+=======
+  background-size: contain;
+  grid-column: 1/2;
+  grid-row: 2/4;
+}
+
+@media screen and (max-width: 321px) {
+  .place__image {
+    width: 90%;
+    margin: 0;
+    order: 4;
+    /*grid-area: place__image;*/
+  }
+>>>>>>> place/featureGrid
 }

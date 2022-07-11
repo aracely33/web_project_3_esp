@@ -10,5 +10,20 @@
   line-height: 76px;
   color: #ffffff;
   grid-column: 1/2;
+<<<<<<< HEAD
   grid-row: -1/1;
+=======
+  grid-row: 1 /2;
+}
+
+@media screen and (max-width: 321px) {
+  .place__title {
+    width: 90%;
+    margin: 0 0 30px 0;
+    font-size: 32px;
+    line-height: 1.09;
+    order: 1;
+    /*grid-area: place__title;*/
+  }
+>>>>>>> place/featureGrid
 }
