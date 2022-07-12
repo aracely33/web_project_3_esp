@@ -23,17 +23,18 @@
 @import url(../blocks/place/place.css);
 @import url(../blocks/place/__title/place__title.css);
 @import url(../blocks/place/__image/place__image.css);
-<<<<<<< HEAD
-@import url(../blocks/place/__paragraph/place__paragraph.css);
-=======
-@import url(../blocks/place/__frame/place__frame.css);
+@import url(../blocks/place/__NFT-button/place__NFT-button.css);
 @import url(../blocks/place/__artist-heading/place__artist-heading.css);
 @import url(../blocks/place/__artist-name/place__artist-name.css);
->>>>>>> place/featureGrid
+@import url(../blocks/place/__paragraph-intro/place__paragraph-intro.css);
+@import url(../blocks/place/__paragraph-main/place__paragraph-main.css);
+@import url(../blocks/place/__paragraph-plus/place__paragraph-plus.css);
 
 @import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/visit-container/cover__visit-container.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/cover/__buy-button/cover__buy-button.css);
 
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);

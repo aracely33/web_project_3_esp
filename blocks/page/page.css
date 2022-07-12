@@ -1,29 +1,53 @@
 .page {
-  border: solid 1px blue;
-  padding-top: 0.4549%;
-  padding-bottom: 0.3211%;
   margin: auto;
   padding: 0;
   max-width: 1280px;
-  min-height: 7473px;
+  /*min-width: 1280px;
+  min-height: 7473px;*/
   background-color: #2a2c2f;
   display: flex;
   flex-direction: column;
-  row-gap: 92px; /*Esto de aquí iría en la media queries?*/
+  padding-top: 34px;
+  padding-bottom: 24px;
+  row-gap: 92px;
   justify-content: center;
   align-items: center;
   text-rendering: optimizeLegibility;
 }
 
-@media screen and (max-width: 321px) {
-  .page {
-    max-width: 320px;
-    padding-top: 20px;
-    padding-bottom: 24px;
+@media screen and (min-width: 321px) and (max-width: 768px) {
+  img:nth-child(1):nth-child(1) {
+    background-color: green;
+  }
+
+  section:nth-of-type(1) {
+    background-color: aqua;
+  }
+
+  section:nth-of-type(2) {
+    background-color: pink;
+  }
+
+  section:nth-of-type(3) {
+    background-color: pink;
+  }
+
+  section:nth-of-type(4) {
     background-color: blue;
   }
 
-  img:nth-child(1) {
+  section:nth-of-type(5) {
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .page {
+    max-width: 320px;
+    padding-top: 20px;
+    background-color: orange;
+  }
+
+  /* img:nth-child(1) {
     background-color: aquamarine;
     margin: 0 0 50.15px 0;
   }
@@ -50,5 +74,5 @@
   section:nth-child(6) {
     background-color: mediumorchid;
     margin: 0 0 64px 0;
-  }
+  }*/
 }

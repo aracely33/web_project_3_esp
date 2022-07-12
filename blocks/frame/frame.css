@@ -1,7 +1,0 @@
-.frame {
-  border: solid 1px green;
-  background: #0278fe;
-  border-radius: 4px;
-  grid-column: 1/2;
-  grid-row: 7/8;
-}

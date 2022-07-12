@@ -1,0 +1,23 @@
+.place__paragraph-main {
+  border: dashed 1px white;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  grid-area: text-main;
+  margin: 25px 0 0 0;
+}
+
+@media screen and (max-width: 321px) {
+  .place__paragraph-main {
+    width: 90%;
+    font-size: 16px;
+    line-height: 163%; /*¿realmente se requiere aqu´?*/
+    margin: 0 0 7px 0;
+    order: 5;
+  }
+}

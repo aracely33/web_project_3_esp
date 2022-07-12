@@ -5,6 +5,12 @@
   mix-blend-mode: luminosity;
 }
 
+@media screen and (min-width: 321px) and (max-width: 768px) {
+  .lead__image {
+    width: 106.66%;
+  }
+}
+
 @media screen and (max-width: 321px) {
   .lead__image {
     width: 111.11%;

@@ -6,12 +6,17 @@
   font-weight: 400;
   font-size: 30px;
   line-height: 1.2;
-  /* or 120% */
   text-align: center;
   padding: 0;
   margin: 0 auto 64px auto;
-
   color: #ffffff;
+}
+
+@media screen and (min-width: 321px) and (max-width: 768px) {
+  .lead__subtitle {
+    width: 100%;
+    margin: 0 0 69px 0;
+  }
 }
 
 @media screen and (max-width: 321px) {

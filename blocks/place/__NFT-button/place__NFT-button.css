@@ -1,16 +1,19 @@
-.place__frame {
+.place__NFT-button {
+  width: 77.17%;
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
-  line-height: 22px;
+  line-height: 1.22;
   color: #ffffff;
   text-decoration: none;
-  width: 75%;
+  text-align: left;
   background: #0278fe;
   border-radius: 4px;
-  grid-column: 1/2;
-  grid-row: 4 / 5;
+  grid-area: frame;
+  padding: 4.12% 20px;
+  display: block;
+  margin: 0;
 }
 
 @media screen and (max-width: 321px) {

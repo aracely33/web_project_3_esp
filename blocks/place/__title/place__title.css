@@ -1,19 +1,17 @@
 .place__title {
   /*height: 152px;*/
-  max-width: 100%;
+  width: 46.74%;
   border: solid 1px white;
   margin: 0;
   font-family: "Inter";
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
-  line-height: 76px;
+  line-height: 1.05;
   color: #ffffff;
-  grid-column: 1/2;
-<<<<<<< HEAD
-  grid-row: -1/1;
-=======
-  grid-row: 1 /2;
+  grid-area: title;
+  margin: 0;
+  padding: 0;
 }
 
 @media screen and (max-width: 321px) {
@@ -23,7 +21,5 @@
     font-size: 32px;
     line-height: 1.09;
     order: 1;
-    /*grid-area: place__title;*/
   }
->>>>>>> place/featureGrid
 }

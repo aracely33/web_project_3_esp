@@ -1,13 +1,16 @@
 .cover__buy-button {
   border: solid 1px red;
-  width: 16.72%;
+  width: 30.18%;
   background: #0278fe;
   border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
-  line-height: 22px;
-  z-index: 1;
+  line-height: 1.22;
   color: #ffffff;
+  margin: 0;
+  padding: 1.98% 20px;
 }

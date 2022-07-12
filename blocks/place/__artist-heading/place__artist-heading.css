@@ -1,18 +1,19 @@
 .place__artist-heading {
   border: solid 1px red;
-
+  width: 46.74%;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
-  line-height: 15px;
+  line-height: 1.25;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: #aaaaaa;
   text-decoration: none;
-  margin: 0;
-  grid-column: 2/3;
-  grid-row: 1/2;
+  grid-area: artist;
+  display: inline;
+  margin: 107px 426px 0 0;
+  padding: 0;
 }
 
 @media screen and (max-width: 321px) {

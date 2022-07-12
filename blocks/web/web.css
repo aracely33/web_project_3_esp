@@ -1,7 +1,0 @@
-.web {
-  border: dashed 1px yellow;
-  /*height: 45px;*/
-
-  grid-column: 2/3;
-  grid-row: -1/2;
-}

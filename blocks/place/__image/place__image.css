@@ -1,14 +1,9 @@
 .place__image {
-  /*height: 460px;*/
-  max-width: 100%;
   border: solid 1px pink;
-<<<<<<< HEAD
-  grid-column: 1/2;
-  grid-row: 3/6;
-=======
+  width: 100%;
   background-size: contain;
-  grid-column: 1/2;
-  grid-row: 2/4;
+  margin: 48px 0 48px 0;
+  grid-area: image;
 }
 
 @media screen and (max-width: 321px) {
@@ -18,5 +13,4 @@
     order: 4;
     /*grid-area: place__image;*/
   }
->>>>>>> place/featureGrid
 }

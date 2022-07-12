@@ -1,0 +1,23 @@
+.place__paragraph-intro {
+  border: dashed 1px white;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  grid-area: text-intro;
+  margin: 48px 0 0 0;
+}
+
+@media screen and (max-width: 321px) {
+  .place__paragraph-intro {
+    width: 90%;
+    font-size: 16px;
+    line-height: 163%;
+    margin: 0 0 7px 0;
+    order: 5;
+  }
+}
