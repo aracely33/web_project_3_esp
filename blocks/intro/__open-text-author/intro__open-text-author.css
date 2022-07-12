@@ -12,6 +12,13 @@
   color: #ffffff;
 }
 
+@media screen and (min-width: 321px) and (max-width: 768px) {
+  .intro__open-text-author {
+    width: 100%;
+    margin: -22px 0 32px 0;
+  }
+}
+
 @media screen and (max-width: 321px) {
   .intro__open-text-author {
     width: 100%;

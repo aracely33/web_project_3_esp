@@ -1,13 +1,13 @@
 .logo {
   border: solid 1px red;
   width: 21.01%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto o auto;
 }
 
 @media screen and (min-width: 321px) and (max-width: 768px) {
   .logo {
     width: 35.15%;
+    margin: 0 auto 90px auto;
   }
 }
 

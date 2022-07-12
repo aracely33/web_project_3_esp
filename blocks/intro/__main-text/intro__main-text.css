@@ -11,6 +11,13 @@
   margin: 0 auto 0 0;
 }
 
+@media screen and (min-width: 321px) and (max-width: 768px) {
+  .intro__main-text {
+    width: 100%;
+    margin: 0;
+  }
+}
+
 @media screen and (max-width: 321px) {
   .intro__main-text {
     width: 100%;

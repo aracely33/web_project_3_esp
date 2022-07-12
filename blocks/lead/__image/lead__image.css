@@ -3,6 +3,7 @@
   background-image: ("lead-image-opacity.png");
   background: #000000;
   mix-blend-mode: luminosity;
+  margin: 0; /*lo acabas de agregar*/
 }
 
 @media screen and (min-width: 321px) and (max-width: 768px) {
