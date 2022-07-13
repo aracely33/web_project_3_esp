@@ -1,4 +1,5 @@
 .place__paragraph-intro {
+  width: 100%;
   border: dashed 1px white;
   font-family: "Inter";
   font-style: normal;

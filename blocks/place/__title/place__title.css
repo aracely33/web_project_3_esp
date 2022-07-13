@@ -1,6 +1,5 @@
 .place__title {
-  /*height: 152px;*/
-  width: 46.74%;
+  width: 100%;
   border: solid 1px white;
   margin: 0;
   font-family: "Inter";
@@ -12,6 +11,15 @@
   grid-area: title;
   margin: 0;
   padding: 0;
+}
+
+@media screen and (min-width: 321px) and (max-width: 768px) {
+  .place__title {
+    width: 100%;
+    font-size: 42px;
+    line-height: 1.09;
+    margin: 0 0 46px 0;
+  }
 }
 
 @media screen and (max-width: 321px) {

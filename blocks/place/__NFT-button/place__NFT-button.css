@@ -16,6 +16,13 @@
   margin: 0;
 }
 
+@media screen and (min-width: 321px) and (max-width: 768px) {
+  .place__NFT-button {
+    width: 100%;
+    margin: 0 0 72px 0;
+  }
+}
+
 @media screen and (max-width: 321px) {
   .place__frame {
     width: 90%;

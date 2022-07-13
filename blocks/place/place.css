@@ -18,27 +18,68 @@
 }
 
 .place:nth-child(2) {
-  background-color: blue;
+  /*background-color: blue;*/
   margin: 0 0 35px 0;
   padding: 0;
 }
 
 .place:nth-child(3) {
-  background-color: red;
+  /*background-color: red;*/
   margin: 0 0 80px 0;
   padding: 0;
 }
 
 .place:nth-child(4) {
-  background-color: green;
+  /*background-color: green;*/
   margin: 0 0 51px 0;
   padding: 0;
 }
 
 .place:nth-child(5) {
-  background-color: yellow;
+  /*background-color: yellow;*/
   margin: 0;
   padding: 0;
+}
+
+@media screen and (min-width: 321px) and (max-width: 768px) {
+  .place {
+    grid-template-areas:
+      "title  artist"
+      "title  name"
+      "image  text-intro "
+      "image  text-main "
+      "image  text-plus "
+      "frame   text-plus";
+  }
+
+  .place:nth-child(1) {
+    background-color: pink;
+    margin: 0 0 52px 0;
+  }
+
+  .place:nth-child(2) {
+    background-color: green;
+    margin: 0 0 46px 0;
+    padding: 0;
+  }
+
+  .place:nth-child(3) {
+    background-color: red;
+    margin: 0 0 25px 0;
+    padding: 0;
+  }
+
+  .place:nth-child(4) {
+    background-color: purple;
+    margin: 0 0 41px 0;
+    padding: 0;
+  }
+
+  .place:nth-child(5) {
+    background-color: orange;
+    margin: 0;
+    padding: 0;
+  }
 }
 
 @media screen and (max-width: 321px) {
@@ -47,15 +88,5 @@
     margin: 0;
     display: flex;
     flex-direction: column;
-
-    /*grid;
-    grid-template-areas:
-      "place__title"
-      "place__artist-heading"
-      "place__artist-name"
-      "place__image"
-      "place__paragraph"
-      "place__paragraph"
-      "place__frame";*/
   }
 }
