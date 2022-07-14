@@ -7,3 +7,17 @@
   align-items: center;
   gap: 32px;
 }
+
+@media screen and (min-width: 321px) and (max-width: 768px) {
+  .cover__visit-container {
+    width: 85.41%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__visit-container {
+    width: 90%;
+    margin: 0;
+    gap: 16;
+  }
+}

@@ -14,13 +14,22 @@
   display: inline;
   margin: 0;
   padding: 0;
+  grid-template-columns: 2/3;
+  grid-template-rows: 1/2;
 }
 
-@media screen and (max-width: 321px) {
+@media screen and (min-width: 321px) and (max-width: 768px) {
+  .place__artist-heading {
+    width: 16.47%;
+    grid-column: 2/3;
+    grid-row: 1 / 2;
+  }
+}
+
+@media screen and (max-width: 320px) {
   .place__artist-heading {
     width: 90%;
     margin: 0 0 8px 0;
     order: 2;
-    /*grid-area: place__artist-heading;*/
   }
 }

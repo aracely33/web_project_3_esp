@@ -4,3 +4,16 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+@media screen and (min-width: 321px) and (max-width: 768px) {
+  .footer {
+    width: 24.86%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer {
+    width: 59.68%;
+    margin: 0;
+  }
+}

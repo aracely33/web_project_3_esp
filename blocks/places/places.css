@@ -16,5 +16,6 @@
   .places {
     width: 100%;
     margin: 0;
+    border: solid 1px blue;
   }
 }

@@ -9,12 +9,22 @@
   color: #ffffff;
   margin: 0;
   padding: 0;
-  grid-area: text-intro;
-  margin: 48px 0 0 0;
-  display: flex;
+  /* grid-area: text-intro;
+  /*margin: 48px 0 0 0;*/
+  grid-column: 2/3;
+  grid-row: 3/ 4;
 }
 
-@media screen and (max-width: 321px) {
+@media screen and (min-width: 321px) and (max-width: 768px) {
+  .place__paragraph-intro {
+    /* margin: 24px 0 0 0;*/
+    grid-area: unset;
+    grid-column: 2/3;
+    grid-row: 3 / 7;
+  }
+}
+
+@media screen and (max-width: 320px) {
   .place__paragraph-intro {
     width: 90%;
     font-size: 16px;

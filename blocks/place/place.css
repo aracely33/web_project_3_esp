@@ -1,55 +1,59 @@
 .place {
   width: 100%;
   display: grid;
-  column-gap: 40px;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(6, auto);
+  border: solid 1px yellow;
+
+  /*column-gap: 40px;
   grid-template-areas:
-    "title  artist"
-    "title  name"
-    "image  text-intro "
-    "image  text-main "
-    "image  text-plus "
-    "frame   text-plus";
+    "title    artist      artist   "
+    "title     name         name   "
+    "image    text-intro text-intro"
+    "image   text-main   text-main"
+    "frame   text-plus   text-plus "
+    "   .     text-plus    text-plus ";*/
 }
 
 .place:nth-child(1) {
-  background-color: blueviolet;
+  /*background-color: blueviolet;*/
   margin: 0 0 80px 0;
   padding: 0;
 }
 
 .place:nth-child(2) {
   /*background-color: blue;*/
+  /*border: dashed 1px blue;*/
   margin: 0 0 35px 0;
   padding: 0;
 }
 
 .place:nth-child(3) {
   /*background-color: red;*/
+  /*border: dashed 1px red;*/
   margin: 0 0 80px 0;
   padding: 0;
 }
 
 .place:nth-child(4) {
   /*background-color: green;*/
+  /*border: dashed 1px green;*/
   margin: 0 0 51px 0;
   padding: 0;
 }
 
 .place:nth-child(5) {
   /*background-color: yellow;*/
+  /*border: dashed 1px yellow;*/
   margin: 0;
   padding: 0;
 }
 
 @media screen and (min-width: 321px) and (max-width: 768px) {
   .place {
-    grid-template-areas:
-      "title  artist"
-      "title  name"
-      "image  text-intro "
-      "image  text-main "
-      "image  text-plus "
-      "frame   text-plus";
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(20, auto);
   }
 
   .place:nth-child(1) {
@@ -88,5 +92,36 @@
     margin: 0;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .place:nth-child(1) {
+    background-color: pink;
+    margin: 0 0 16px 0;
+  }
+
+  .place:nth-child(2) {
+    background-color: green;
+    margin: 0 0 36px 0;
+    padding: 0;
+  }
+
+  .place:nth-child(3) {
+    background-color: red;
+    margin: 0 0 17px 0;
+    padding: 0;
+  }
+
+  .place:nth-child(4) {
+    background-color: purple;
+    margin: 0 0 50px 0;
+    padding: 0;
+  }
+
+  .place:nth-child(5) {
+    background-color: orange;
+    margin: 0;
+    padding: 0;
   }
 }
