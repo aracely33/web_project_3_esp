@@ -7,20 +7,25 @@
   font-size: 18px;
   line-height: 163%;
   color: #ffffff;
-  margin: 0;
   padding: 0;
-  /* grid-area: text-intro;
-  /*margin: 48px 0 0 0;*/
+  margin: 0 0 auto 0;
   grid-column: 2/3;
-  grid-row: 3/ 4;
+  grid-row: 3/ 6;
+  display: flex;
 }
 
-@media screen and (min-width: 321px) and (max-width: 768px) {
+/*@media screen and (min-width: 321px) and (max-width: 768px) {
   .place__paragraph-intro {
-    /* margin: 24px 0 0 0;*/
     grid-area: unset;
     grid-column: 2/3;
     grid-row: 3 / 7;
+  }
+}*/
+
+@media screen and (min-width: 320px) and (max-width: 446px) {
+  .place__paragraph-intro {
+    width: 100%;
+    font-size: 14px;
   }
 }
 

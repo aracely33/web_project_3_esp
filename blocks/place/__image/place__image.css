@@ -2,17 +2,14 @@
   border: solid 1px pink;
   width: 100%;
   background-size: contain;
-  /*margin: 48px 0 48px 0;*/
-  /* grid-area: image;*/
+  margin: 0 0 48px 0;
   grid-column: 1 /2;
   grid-row: 3/ 7;
 }
 
-@media screen and (min-width: 321px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 446px) {
   .place__image {
-    /*margin: 0 0 48px 0;*/
-    grid-column: 1/2;
-    grid-row: 3 / 6;
+    width: 76%;
   }
 }
 

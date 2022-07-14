@@ -1,21 +1,22 @@
 .places {
+  border: solid 1px red;
   width: 77.1%;
   display: flex;
   flex-direction: column;
   margin: 0 auto 0 auto;
 }
 
-@media screen and (min-width: 321px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .places {
     width: 93.75%;
-    margin: 0;
+    margin: 0 auto 92px auto;
   }
 }
 
-@media screen and (max-width: 321px) {
+@media screen and (max-width: 320px) {
   .places {
     width: 100%;
     margin: 0;
-    border: solid 1px blue;
+    margin: 0 auto 64px auto;
   }
 }

@@ -12,7 +12,7 @@
   padding-bottom: 243px;
 }
 
-@media screen and (min-width: 321px) {
+@media screen and (min-width: 1280px) {
   .cover:hover {
     background: linear-gradient(rgba(42, 44, 47, 0.8), rgba(42, 44, 47, 0.8)),
       url(../../images/cover-background.jpg) no-repeat center center fixed;
@@ -20,11 +20,12 @@
   }
 }
 
-@media screen and (min-width: 321px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .cover {
     width: 100%;
     padding-top: 243px;
     padding-bottom: 243px;
+    margin: 0 auto 88px auto;
   }
 }
 
@@ -32,6 +33,6 @@
   .cover {
     width: 100%;
     padding: 46px 0 45px 0;
-    margin: 0;
+    margin: 0 auto 64px auto;
   }
 }
