@@ -1,5 +1,4 @@
 .cover {
-  border: solid 1px red;
   width: 92.5%;
   margin: 0 auto 0 auto;
   -webkit-box-align: center;
@@ -12,11 +11,11 @@
       from(rgba(42, 44, 47, 0.3)),
       to(rgba(42, 44, 47, 0.3))
     ),
-    url(../../images/cover-background.jpg) no-repeat center center fixed;
+    url(../../images/cover-background.jpg) no-repeat center center;
   background: -o-linear-gradient(rgba(42, 44, 47, 0.3), rgba(42, 44, 47, 0.3)),
-    url(../../images/cover-background.jpg) no-repeat center center fixed;
+    url(../../images/cover-background.jpg) no-repeat center center;
   background: linear-gradient(rgba(42, 44, 47, 0.3), rgba(42, 44, 47, 0.3)),
-    url(../../images/cover-background.jpg) no-repeat center center fixed;
+    url(../../images/cover-background.jpg) no-repeat center center;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -37,11 +36,11 @@
         from(rgba(42, 44, 47, 0.8)),
         to(rgba(42, 44, 47, 0.8))
       ),
-      url(../../images/cover-background.jpg) no-repeat center center fixed;
+      url(../../images/cover-background.jpg) no-repeat center center;
     background: -o-linear-gradient(rgba(42, 44, 47, 0.8), rgba(42, 44, 47, 0.8)),
-      url(../../images/cover-background.jpg) no-repeat center center fixed;
+      url(../../images/cover-background.jpg) no-repeat center center;
     background: linear-gradient(rgba(42, 44, 47, 0.8), rgba(42, 44, 47, 0.8)),
-      url(../../images/cover-background.jpg) no-repeat center center fixed;
+      url(../../images/cover-background.jpg) no-repeat center center;
     background-size: cover;
   }
 }
