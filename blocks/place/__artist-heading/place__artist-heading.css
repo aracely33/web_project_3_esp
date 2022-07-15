@@ -11,20 +11,21 @@
   color: #aaaaaa;
   text-decoration: none;
   grid-area: artist;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
   justify-content: flex-end;
   margin: 0 0 8px 0;
   padding: 0;
   grid-column: 2/3;
   grid-row: 1/2;
 }
-
-/*@media screen and (min-width: 321px) and (max-width: 768px) {
-  .place__artist-heading {
-    width: 16.47%;
-  }
-}*/
 
 @media screen and (min-width: 320px) and (max-width: 446px) {
   .place__artist-heading {
@@ -37,6 +38,8 @@
   .place__artist-heading {
     width: 90%;
     margin: 0 0 8px 0;
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
     order: 2;
   }
 }

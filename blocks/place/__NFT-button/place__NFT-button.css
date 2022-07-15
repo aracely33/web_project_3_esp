@@ -8,18 +8,22 @@
   color: #ffffff;
   text-decoration: none;
   text-align: left;
-  background-color: #0278fe;
+  background: #0278fe;
   border-radius: 4px;
   grid-area: frame;
   padding: 4.12% 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin: 0 0 auto 0;
   grid-column: 1 / 2;
   grid-row: 7/ 8;
 }
 
-.place__NFT-button a:hover {
-  background: #0063d2;
+@media screen and (min-width: 1280px) {
+  .place__NFT-button:hover {
+    background: #0063d2;
+  }
 }
 
 @media screen and (min-width: 446px) and (max-width: 768px) {
@@ -44,6 +48,8 @@
     width: 90%;
     font-size: 14px;
     line-height: 1.21;
+    -webkit-box-ordinal-group: 8;
+    -ms-flex-order: 7;
     order: 7;
   }
 }

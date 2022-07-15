@@ -11,17 +11,10 @@
   padding: 0;
   grid-column: 2/3;
   grid-row: 9/ 12;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
-
-/*@media screen and (min-width: 321px) and (max-width: 768px) {
-  .place__paragraph-plus {
-    margin: 11px 0 0 0;
-    grid-area: unset;
-    grid-column: 2/3;
-    grid-row: 11 / 15;
-  }
-}*/
 
 @media screen and (min-width: 320px) and (max-width: 446px) {
   .place__paragraph-intro {
@@ -35,6 +28,8 @@
     width: 90%;
     font-size: 16px;
     margin: 0 0 4px 0;
+    -webkit-box-ordinal-group: 6;
+    -ms-flex-order: 5;
     order: 5;
   }
 }

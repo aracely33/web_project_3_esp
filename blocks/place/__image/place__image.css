@@ -17,6 +17,8 @@
   .place__image {
     width: 100%;
     margin: 0;
+    -webkit-box-ordinal-group: 5;
+    -ms-flex-order: 4;
     order: 4;
   }
 }

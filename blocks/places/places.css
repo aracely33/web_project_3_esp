@@ -1,7 +1,12 @@
 .places {
   border: solid 1px red;
   width: 77.1%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   margin: 0 auto 0 auto;
 }

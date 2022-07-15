@@ -7,6 +7,8 @@
   line-height: 22px;
   color: #ffffff;
   padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   text-decoration: none;
   width: auto;
@@ -18,7 +20,6 @@
 @media screen and (min-width: 446px) and (max-width: 768px) {
   .place__artist-name {
     margin: 0 0 24px 0;
-    /* width: 83.8%;*/
   }
 }
 
@@ -33,6 +34,8 @@
   .place__artist-name {
     width: 90%;
     margin: 0 0 30px 0;
+    -webkit-box-ordinal-group: 4;
+    -ms-flex-order: 3;
     order: 3;
   }
 }
