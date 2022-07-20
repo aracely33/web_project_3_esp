@@ -1,0 +1,8 @@
+.place__header {
+  width: 100%;
+  grid-column: 1/3;
+  grid-row: 1/2;
+  display: flex;
+  column-gap: 40px;
+  border: solid 1px yellow;
+}

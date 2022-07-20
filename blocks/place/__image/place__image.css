@@ -1,15 +1,9 @@
 .place__image {
-  width: 100%;
-  background-size: contain;
-  margin: 0 0 48px 0;
-  grid-column: 1 /2;
-  grid-row: 3/ 7;
-}
+  max-width: 100%;
+  object-fit: cover;
 
-@media screen and (min-width: 320px) and (max-width: 446px) {
-  .place__image {
-    width: 76%;
-  }
+  margin: 0;
+  padding: 0;
 }
 
 @media screen and (max-width: 320px) {

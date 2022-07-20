@@ -1,0 +1,9 @@
+.place__text {
+  border: solid 1px aqua;
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
