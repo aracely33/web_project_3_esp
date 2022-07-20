@@ -1,23 +1,16 @@
 .place__image {
   width: 100%;
-  background-size: contain;
-  margin: 0 0 48px 0;
+  height: 100%;
+  object-fit: cover;
+  margin: 0;
+  padding: 0;
   grid-column: 1 /2;
   grid-row: 1/2;
-}
-
-@media screen and (min-width: 320px) and (max-width: 446px) {
-  .place__image {
-    width: 76%;
-  }
 }
 
 @media screen and (max-width: 320px) {
   .place__image {
     width: 100%;
     margin: 0;
-    -webkit-box-ordinal-group: 5;
-    -ms-flex-order: 4;
-    order: 4;
   }
 }

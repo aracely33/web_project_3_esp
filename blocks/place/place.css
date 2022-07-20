@@ -3,6 +3,7 @@
   display: grid;
   grid-template-columns: 0.9504fr 1fr;
   grid-template-rows: auto 1fr;
+  row-gap: 48px;
 }
 
 .place:nth-child(1) {
