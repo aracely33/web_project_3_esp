@@ -1,15 +1,12 @@
 .place__artist {
-  /*width: calc((100% - 40px) * 0.5127);*/
-
+  background-color: blueviolet;
+  width: calc((100% - 40px) * 0.5127);
   margin: 0;
   padding: 0;
-  grid-column: 2/3;
-  grid-row: 1/2;
-
-  border: dashed 1px white;
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: flex-end;
+  row-gap: 8px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 768px) {

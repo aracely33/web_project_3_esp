@@ -1,0 +1,8 @@
+.place__main {
+  border: solid 1px red;
+  grid-column: 1/3;
+  grid-row: 2/3;
+  display: grid;
+  grid-template-columns: 0.9504fr 1fr;
+  grid-template-rows: auto auto;
+}
