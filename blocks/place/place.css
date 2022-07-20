@@ -1,11 +1,8 @@
 .place {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(2, auto);
-  grid-template-rows: repeat(6, auto);
-  -webkit-column-gap: 40px;
-  -moz-column-gap: 40px;
-  column-gap: 40px;
+  grid-template-columns: 0.9504fr 1fr;
+  grid-template-rows: auto 1fr;
 }
 
 .place:nth-child(1) {

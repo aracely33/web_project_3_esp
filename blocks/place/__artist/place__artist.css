@@ -1,0 +1,4 @@
+.place__artist {
+  background-color: blueviolet;
+  width: calc((100% - 40px) * 0.5127);
+}

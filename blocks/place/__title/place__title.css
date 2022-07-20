@@ -1,5 +1,6 @@
 .place__title {
-  width: 100%;
+  background-color: aqua;
+  width: calc((100% - 40px) * 0.4872);
   margin: 0;
   font-family: "Inter";
   font-style: normal;

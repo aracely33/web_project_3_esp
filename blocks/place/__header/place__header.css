@@ -1,0 +1,7 @@
+.place__header {
+  border: solid 1px pink;
+  grid-column: 1/3;
+  grid-row: 1/2;
+  display: flex;
+  column-gap: 40px;
+}

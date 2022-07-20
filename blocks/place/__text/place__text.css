@@ -1,0 +1,5 @@
+.place__text {
+  border: solid 1px blue;
+  grid-column: 2/3;
+  grid-row: 1/3;
+}
