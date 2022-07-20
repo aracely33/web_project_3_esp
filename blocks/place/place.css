@@ -70,10 +70,9 @@
     margin: 0;
     display: flex;
     flex-direction: column;
-    row-gap: 0;
   }
 
-  .place:nth-child(1) {
+  /* .place:nth-child(1) {
     margin: 0 0 16px 0;
   }
 
@@ -95,5 +94,5 @@
   .place:nth-child(5) {
     margin: 0;
     padding: 0;
-  }
+  }*/
 }

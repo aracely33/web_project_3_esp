@@ -16,10 +16,6 @@
 
 @media screen and (max-width: 320px) {
   .place__artist-heading {
-    width: 90%;
-    margin: 0 0 8px 0;
-    -webkit-box-ordinal-group: 3;
-    -ms-flex-order: 2;
-    order: 2;
+    width: 100%;
   }
 }

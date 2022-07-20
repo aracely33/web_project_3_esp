@@ -32,8 +32,5 @@
     width: 90%;
     font-size: 14px;
     line-height: 1.21;
-    -webkit-box-ordinal-group: 8;
-    -ms-flex-order: 7;
-    order: 7;
   }
 }

@@ -1,5 +1,6 @@
 .place__title {
-  max-width: calc((100% - 40px) * 0.4872);
+  /*max-width: calc((100% - 40px) * 0.4872);*/
+  width: 100%;
   font-family: "Inter";
   font-style: normal;
   font-weight: 900;
@@ -9,6 +10,8 @@
   border: solid 1px red;
   margin: 0;
   padding: 0;
+  grid-column: 1/2;
+  grid-row: 1/2;
 }
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
@@ -21,11 +24,9 @@
 
 @media screen and (max-width: 320px) {
   .place__title {
-    width: 90%;
+    width: 100%;
     font-size: 32px;
     line-height: 1.09;
-    -webkit-box-ordinal-group: 2;
-    -ms-flex-order: 1;
     order: 1;
   }
 }
