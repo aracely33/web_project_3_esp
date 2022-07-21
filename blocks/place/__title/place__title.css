@@ -1,5 +1,4 @@
 .place__title {
-  background-color: aqua;
   width: calc((100% - 40px) * 0.4872);
   margin: 0;
   font-family: "Inter";
@@ -8,7 +7,6 @@
   font-size: 72px;
   line-height: 1.05;
   color: #ffffff;
-  border: solid 1px red;
   margin: 0;
   padding: 0;
   grid-column: 1/2;
@@ -17,7 +15,6 @@
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .place__title {
-    width: 49.13%;
     font-size: 42px;
     line-height: 1.09;
   }
@@ -28,6 +25,8 @@
     width: 100%;
     font-size: 32px;
     line-height: 1.09;
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
     order: 1;
   }
 }

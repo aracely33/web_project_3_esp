@@ -9,12 +9,11 @@
   text-transform: uppercase;
   color: #aaaaaa;
   text-decoration: none;
-  background-color: blue;
   padding: 0;
   margin: 0;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 575px) {
   .place__artist-heading {
     width: 100%;
   }
