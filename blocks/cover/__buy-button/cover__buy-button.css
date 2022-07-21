@@ -14,10 +14,8 @@
   padding: 1.98% 20px;
 }
 
-@media screen and (min-width: 1280px) {
-  .cover__buy-button:hover {
-    background: #0063d2;
-  }
+.cover__buy-button:hover {
+  background: #0063d2;
 }
 
 @media screen and (max-width: 320px) {

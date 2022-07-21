@@ -35,5 +35,7 @@
     width: 90%;
     font-size: 14px;
     line-height: 1.21;
+    text-align: center;
+    order: 3;
   }
 }

@@ -5,4 +5,17 @@
   display: grid;
   grid-template-columns: 0.9504fr 1fr;
   grid-template-rows: auto auto;
+  column-gap: 40px;
+  row-gap: 48px;
+}
+
+@media screen and (max-width: 320px) {
+  .place__main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    row-gap: 0;
+  }
 }

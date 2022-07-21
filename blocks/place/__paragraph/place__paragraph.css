@@ -8,24 +8,11 @@
   color: #ffffff;
   padding: 0;
   margin: 0;
-  background-color: green;
+  border: solid 1px green;
 }
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .place__paragraph {
-    width: 100%;
     font-size: 16px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .place__paragraph {
-    width: 90%;
-    font-size: 16px;
-    line-height: 163%;
-    margin: 0 0 7px 0;
-    -webkit-box-ordinal-group: 6;
-    -ms-flex-order: 5;
-    order: 5;
   }
 }

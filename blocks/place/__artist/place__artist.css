@@ -1,6 +1,6 @@
 .place__artist {
-  background-color: blueviolet;
   width: calc((100% - 40px) * 0.5127);
+  border: solid 1px wheat;
   margin: 0;
   padding: 0;
   display: flex;
