@@ -1,4 +1,5 @@
 .place {
+  border: solid 1px red;
   width: 100%;
   display: grid;
   grid-template-columns: 0.9504fr 1fr;
