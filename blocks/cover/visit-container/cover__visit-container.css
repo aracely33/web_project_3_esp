@@ -1,5 +1,6 @@
 .cover__visit-container {
   width: 55.4%;
+  margin: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -25,7 +26,6 @@
 @media screen and (max-width: 320px) {
   .cover__visit-container {
     width: 90%;
-    margin: 0;
     gap: 16;
   }
 }
