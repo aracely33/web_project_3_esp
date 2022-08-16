@@ -10,17 +10,15 @@
   margin: 0 auto 0 0;
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (max-width: 769px) {
   .intro__open-text {
     width: 100%;
     margin: 0;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 321px) {
   .intro__open-text {
-    width: 100%;
     line-height: 1.25;
-    margin: 9px 0 0 0;
   }
 }
