@@ -21,5 +21,6 @@
     width: 90%;
     flex-direction: column;
     row-gap: 30px;
+    margin: 0 auto 0 auto;
   }
 }

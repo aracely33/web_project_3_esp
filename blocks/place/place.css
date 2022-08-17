@@ -64,6 +64,7 @@
 @media screen and (max-width: 321px) {
   .place {
     width: 100%;
+    row-gap: 30px;
     display: flex;
     flex-direction: column;
   }
