@@ -1,5 +1,4 @@
 .place__artist {
-  border: solid 1px blue;
   width: calc((100% - 40px) * 0.5127);
   margin: 0;
   padding: 0;
@@ -16,7 +15,13 @@
   row-gap: 8px;
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 769px) {
+  .place__artist {
+    width: calc((100% - 28px) * 0.5086);
+  }
+}
+
+@media screen and (max-width: 321px) {
   .place__artist {
     width: 100%;
   }
