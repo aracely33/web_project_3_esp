@@ -8,13 +8,3 @@
   grid-column: 1 /2;
   grid-row: 1/2;
 }
-
-@media screen and (max-width: 575px) {
-  .place__image {
-    width: 100%;
-    margin: 0;
-    -webkit-box-ordinal-group: 2;
-    -ms-flex-order: 1;
-    order: 1;
-  }
-}
