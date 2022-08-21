@@ -1,5 +1,5 @@
 .place__NFT-button {
-  width: 77.17%;
+  width: 68.4782%;
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
@@ -10,7 +10,7 @@
   text-align: left;
   background: #0278fe;
   border-radius: 4px;
-  padding: 4.12% 20px;
+  padding: 13px 4.35%;
   margin: 0;
   grid-column: 1 / 2;
   grid-row: 2/3;
@@ -21,23 +21,21 @@
   background: #0063d2;
 }
 
-@media screen and (min-width: 575px) and (max-width: 896px) {
+@media screen and (max-width: 769px) {
   .place__NFT-button {
-    width: 100%;
-    padding: 3.66% 20px;
+    width: 92.647%;
+    padding: 13px 5.88%;
   }
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 321px) {
   .place__NFT-button {
-    margin: 0 auto 0 auto;
-    padding: 0;
-    width: 90%;
+    margin: 6px auto 0 auto;
+    padding: 16px 6.6% 15px 6.9%;
+    width: 76.5625%;
     font-size: 14px;
     line-height: 1.21;
     text-align: center;
-    -webkit-box-ordinal-group: 4;
-    -ms-flex-order: 3;
     order: 3;
   }
 }
