@@ -1,5 +1,5 @@
 .cover__buy-button {
-  width: 30.18%;
+  width: 24.08536%;
   background: #0278fe;
   border-radius: 4px;
   text-align: center;
@@ -11,15 +11,16 @@
   line-height: 1.22;
   color: #ffffff;
   margin: 0;
-  padding: 1.98% 20px;
+  padding: 13px 3.06%;
 }
 
 .cover__buy-button:hover {
   background: #0063d2;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 321px) {
   .cover__buy-button {
-    width: 68.75%;
+    width: 54.8611%;
+    padding: 13px 6.99%;
   }
 }

@@ -17,15 +17,15 @@
   gap: 32px;
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (max-width: 769px) {
   .cover__visit-container {
-    width: 85.41%;
+    width: 85.416%;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 321px) {
   .cover__visit-container {
     width: 90%;
-    gap: 16;
+    gap: 16px;
   }
 }

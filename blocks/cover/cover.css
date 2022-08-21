@@ -43,7 +43,7 @@
   background-size: cover;
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (max-width: 769px) {
   .cover {
     width: 100%;
     padding-top: 243px;
@@ -52,7 +52,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 321px) {
   .cover {
     width: 100%;
     padding: 46px 0 45px 0;
