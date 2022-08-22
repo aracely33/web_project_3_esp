@@ -1,8 +1,6 @@
 .place__text {
   grid-column: 2/3;
   grid-row: 1/3;
-  display: -webkit-box;
-  display: -ms-flexbox;
   width: 100%;
   display: flex;
   -webkit-box-orient: vertical;
