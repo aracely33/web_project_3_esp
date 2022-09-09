@@ -10,6 +10,12 @@
   padding: 0;
 }
 
+@media screen and (max-width: 905px) {
+  .place__title {
+    font-size: 54px;
+  }
+}
+
 @media screen and (max-width: 769px) {
   .place__title {
     width: calc((100% - 28px) * 0.49133);
