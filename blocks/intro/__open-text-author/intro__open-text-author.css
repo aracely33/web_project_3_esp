@@ -17,6 +17,13 @@
   }
 }
 
+@media screen and (max-width: 522px) {
+  .intro__open-text-author {
+    margin: -4px auto 32px 0;
+    font-size: 14px;
+  }
+}
+
 @media screen and (max-width: 321px) {
   .intro__open-text-author {
     margin: 0 0 0 0;

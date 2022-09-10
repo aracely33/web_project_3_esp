@@ -17,6 +17,12 @@
   }
 }
 
+@media screen and (max-width: 522px) {
+  .intro__open-text {
+    font-size: 14px;
+  }
+}
+
 @media screen and (max-width: 321px) {
   .intro__open-text {
     line-height: 1.25;
