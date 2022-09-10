@@ -15,3 +15,9 @@
     font-size: 16px;
   }
 }
+
+@media screen and (max-width: 522px) {
+  .place__paragraph {
+    font-size: 10px;
+  }
+}
