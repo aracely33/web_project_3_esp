@@ -13,8 +13,8 @@
   margin: 0;
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 522px) {
   .place__artist-heading {
-    width: 100%;
+    font-size: 6px;
   }
 }
