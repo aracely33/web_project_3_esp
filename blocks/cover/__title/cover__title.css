@@ -22,3 +22,9 @@
     line-height: 1.09;
   }
 }
+
+@media screen and (max-width: 246px) {
+  .cover__title {
+    font-size: 18px;
+  }
+}

@@ -47,3 +47,10 @@
     order: 3;
   }
 }
+
+@media screen and (max-width: 246px) {
+  .place__NFT-button {
+    font-size: 9px;
+    padding: 12px 3% 12px 3%;
+  }
+}
