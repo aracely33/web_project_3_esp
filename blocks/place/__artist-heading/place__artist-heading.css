@@ -18,3 +18,9 @@
     font-size: 6px;
   }
 }
+
+@media screen and (max-width: 321px) {
+  .place__artist-heading {
+    font-size: 12px;
+  }
+}

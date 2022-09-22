@@ -10,10 +10,29 @@
   color: #ffffff;
 }
 
+@media screen and (max-width: 1140px) {
+  .intro__open-text-author {
+    margin: -14px auto 32px 0;
+  }
+}
+
 @media screen and (max-width: 769px) {
   .intro__open-text-author {
     width: 100%;
     margin: -24px 0 32px 0;
+  }
+}
+
+@media screen and (max-width: 688px) {
+  .intro__open-text-author {
+    margin: -14px 0 32px 0;
+  }
+}
+
+@media screen and (max-width: 522px) {
+  .intro__open-text-author {
+    margin: -4px auto 32px 0;
+    font-size: 14px;
   }
 }
 

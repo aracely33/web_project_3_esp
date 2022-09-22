@@ -28,6 +28,12 @@
   }
 }
 
+@media screen and (max-width: 522px) {
+  .place__NFT-button {
+    font-size: 10px;
+  }
+}
+
 @media screen and (max-width: 321px) {
   .place__NFT-button {
     margin: 6px auto 0 auto;
