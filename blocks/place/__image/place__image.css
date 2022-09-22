@@ -8,3 +8,10 @@
   grid-column: 1 /2;
   grid-row: 1/2;
 }
+
+@media screen and (max-width: 522px) and (min-width: 321px) {
+  .place__image {
+    height: 44vw;
+    align-self: center;
+  }
+}
