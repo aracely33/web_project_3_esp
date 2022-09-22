@@ -21,3 +21,9 @@
     font-size: 18px;
   }
 }
+
+@media screen and (max-width: 246px) {
+  .place__artist-name {
+    font-size: 9px;
+  }
+}
